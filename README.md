@@ -28,7 +28,7 @@ Please refer to our paper https://arxiv.org/pdf/2308.10279.pdf for more details.
 
 # Dataset
 
-Due to the file size limitation of the supplementary material, we only upload the mnist dataset with the practical *label skew* setting ($\beta=0.1$). 
+Due to the file size limitation of the supplementary material, we only upload the mnist dataset with the practical *label skew* setting ($\beta=0.1$). One can generate all the required datasets and settings via our another project [PFL-Non-IID](https://github.com/TsingZ0/PFL-Non-IID). 
 
 
 # System
