@@ -23,6 +23,8 @@ By simultaneously considering global guidance and personalized tasks, GPFL can l
 
 ![](./figs/fig2.png)
 
+Please refer to our paper https://arxiv.org/pdf/2308.10279.pdf for more details. 
+
 
 # Dataset
 
