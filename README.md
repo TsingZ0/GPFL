@@ -1,6 +1,6 @@
 # Introduction
 
-This is the official implementation of our paper [*GPFL: Simultaneously Learning Generic and Personalized Feature Information for Personalized Federated Learning*](https://arxiv.org/pdf/2308.10279.pdf) (accepted by ICCV 2023). 
+This is the official implementation of our paper [*GPFL: Simultaneously Learning Generic and Personalized Feature Information for Personalized Federated Learning*](https://arxiv.org/pdf/2308.10279v2.pdf) (accepted by ICCV 2023). 
 
 **Citation**
 
