@@ -5,10 +5,11 @@ This is the official implementation of our paper [*GPFL: Simultaneously Learning
 **Citation**
 
 ```
-@article{zhang2023gpfl,
+@inproceedings{zhang2023gpfl,
   title={GPFL: Simultaneously Learning Global and Personalized Feature Information for Personalized Federated Learning},
   author={Zhang, Jianqing and Hua, Yang and Wang, Hao and Song, Tao and Xue, Zhengui and Ma, Ruhui and Cao, Jian and Guan, Haibing},
-  journal={arXiv preprint arXiv:2308.10279},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5041--5051},
   year={2023}
 }
 ```
