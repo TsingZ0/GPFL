@@ -105,7 +105,7 @@ if __name__ == "__main__":
                         help="Rounds gap for evaluation")
    
     parser.add_argument('-lam', "--lamda", type=float, default=0.0)
-    parser.add_argument('-lamr', "--lamda_reg", type=float, default=0.0)
+    parser.add_argument('-mu', "--mu", type=float, default=0.0)
 
     args = parser.parse_args()
 
