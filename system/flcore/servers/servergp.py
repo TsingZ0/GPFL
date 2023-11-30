@@ -148,10 +148,13 @@ class GPFL:
                 print("\nEvaluate performance")
                 self.evaluate()
 
-            threads = [Thread(target=client.train)
-                       for client in self.selected_clients]
-            [t.start() for t in threads]
-            [t.join() for t in threads]
+            # threads = [Thread(target=client.train)
+            #            for client in self.selected_clients]
+            # [t.start() for t in threads]
+            # [t.join() for t in threads]
+
+            for client in self.selected_clients:
+                client.train()
 
             self.receive_models()
             self.aggregate_parameters()
