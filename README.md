@@ -18,7 +18,7 @@ This is the official implementation of our paper [*GPFL: Simultaneously Learning
 
 From the perspective of feature extraction, most existing pFL methods only focus on extracting global or personalized feature information during local training, which fails to meet the collaborative learning and personalization goals of pFL. To address this, we propose a new pFL method, named **GPFL**, to simultaneously learn global and personalized feature information on each client. We evaluate our GPFL in the *label skew*, *feature shift*, and *real world* settings. 
 
-Specifically, we devise a **Conditional Valve (CoV)** after the feature extractor ($\phi$) to create a global guidance route and a personalized task route in the client model. Then, we learn the global feature information with the guidance of global category embeddings using the Global **Category Embedding layer (GCE)** and learn personalized feature information through personalized tasks, as shown in the following figure, where globally shared modules have solid borders. 
+Specifically, we devise a **Conditional Valve (CoV)** after the feature extractor ($\phi$) to create a global guidance route and a personalized task route in the client model. Then, we learn the global feature information with the guidance of global category embeddings using the **Global Category Embedding (GCE)** and learn personalized feature information through personalized tasks, as shown in the following figure, where globally shared modules have solid borders. 
 
 ![](./figs/fig1.png)
 
