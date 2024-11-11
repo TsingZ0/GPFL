@@ -29,9 +29,9 @@ By simultaneously considering global guidance and personalized tasks, GPFL can l
 Please refer to our paper https://arxiv.org/pdf/2308.10279.pdf for more details. 
 
 
-# Dataset
+# Datasets and Environments
 
-Due to the file size limitation of the supplementary material, we only upload the mnist dataset with the practical *label skew* setting ($\beta=0.1$). One can generate all the required datasets and settings via our another project [PFLlib](https://github.com/TsingZ0/PFLlib). 
+Due to the file size limitation, we only upload the mnist dataset with the practical *label skew* setting ($\beta=0.1$). One can generate all the required datasets and environment settings via our another project [PFLlib](https://github.com/TsingZ0/PFLlib). 
 
 
 # System
@@ -46,16 +46,8 @@ Due to the file size limitation of the supplementary material, we only upload th
 - `./utils`:
     - `data_utils.py`: the code to read the dataset. 
 
-# Simulation
 
-## Environments
-With the installed [conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh), we can run this platform in a conda virtual environment called *fl*. 
-```
-conda env create -f env_cuda_latest.yaml # for Linux
-```
-
-
-## Training and Evaluation
+# Training and Evaluation
 
 All codes corresponding to **GPFL** are stored in `./system`. Just run the following commands.
 
